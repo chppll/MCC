@@ -3,10 +3,13 @@
 
 typedef struct s_node
 {
-    t_state         *state;
+    t_state         state;
+    int             visits;
+    int             wins;
     int             childrenNb;
     int             unexpandedNb;
-    struct s_state  **children;
+    struct s_node   **children;
 }               t_node;
+
 
 #endif

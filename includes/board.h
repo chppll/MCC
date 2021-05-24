@@ -11,7 +11,7 @@ typedef struct s_square
 
 typedef struct s_board
 {
-    s_square    board[8][8];  
+    s_square    board[8][8];
 }               t_board;
 
 #endif
