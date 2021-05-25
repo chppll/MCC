@@ -3,13 +3,13 @@
 
 enum
 {
-    PAWN,
     KING,
     QUEEN,
     ROOK,
+    KNIGHT,
     BISHOP,
-    KNIGHT
-}
+    PAWN
+};
 
 typedef struct s_piece
 {
